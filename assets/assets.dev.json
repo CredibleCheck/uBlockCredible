@@ -3,14 +3,14 @@
 		"content": "internal",
 		"updateAfter": 13,
 		"contentURL": [
-			"https://raw.githubusercontent.com/gorhill/uBlock/master/assets/assets.dev.json",
-			"assets/assets.dev.json"
+			"https://raw.githubusercontent.com/CredibleCheck/uBlockCredible/master/assets/assets.json",
+			"assets/assets.json"
 		],
 		"cdnURLs": [
-			"https://ublockorigin.github.io/uAssetsCDN/ublock/assets.dev.json",
-			"https://ublockorigin.pages.dev/ublock/assets.dev.json",
-			"https://cdn.jsdelivr.net/gh/gorhill/uBlock@master/assets/assets.dev.json",
-			"https://cdn.statically.io/gh/gorhill/uBlock/master/assets/assets.dev.json"
+			"https://ublockorigin.github.io//assets.json",
+			"https://ublockorigin.pages.dev/assets.json",
+			"https://cdn.jsdelivr.net/assets.json",
+			"https://cdn.statically.io/assets.json"
 		]
 	},
 	"public_suffix_list.dat": {
@@ -21,6 +21,15 @@
 			"assets/thirdparties/publicsuffix.org/list/effective_tld_names.dat"
 		]
 	},
+	"fake-block" : {
+		"content": "internal",
+		"updateAfter": 29,
+		"contentURL": [
+			"https://raw.githubusercontent.com/CredibleCheck/unscientific-block/main/blocklists.txt",
+			"assets/ublock/blocklists.txt"
+		]
+	},
+
 	"ublock-badlists": {
 		"content": "internal",
 		"updateAfter": 29,
@@ -124,8 +133,7 @@
 		"cdnURLs": [
 			"https://ublockorigin.github.io/uAssetsCDN/filters/quick-fixes.min.txt",
 			"https://ublockorigin.pages.dev/filters/quick-fixes.min.txt",
-			"https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt",
-			"https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/quick-fixes.min.txt?dev=1"
+			"https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/quick-fixes.min.txt"
 		],
 		"supportURL": "https://github.com/uBlockOrigin/uAssets"
 	},
@@ -163,7 +171,8 @@
 		"cdnURLs": [
 			"https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easylist.txt",
 			"https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easylist.txt",
-			"https://ublockorigin.pages.dev/thirdparties/easylist.txt"
+			"https://ublockorigin.pages.dev/thirdparties/easylist.txt",
+			"https://easylist.to/easylist/easylist.txt"
 		],
 		"supportURL": "https://easylist.to/"
 	},
@@ -214,7 +223,8 @@
 		"cdnURLs": [
 			"https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/thirdparties/easyprivacy.txt",
 			"https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/thirdparties/easyprivacy.txt",
-			"https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt"
+			"https://ublockorigin.pages.dev/thirdparties/easyprivacy.txt",
+			"https://easylist.to/easylist/easyprivacy.txt"
 		],
 		"supportURL": "https://easylist.to/"
 	},
